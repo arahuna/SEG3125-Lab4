@@ -10329,9 +10329,12 @@ h3 {
   opacity: 0;
 }
 
-.floating-label-form-group option {
-  
+.floating-label-form-group select,
+.floating-label-form-group input {
+  color: #6C757D;
 }
+
+
 
 .floating-label-form-group:not(:first-child) {
   padding-left: 14px;
