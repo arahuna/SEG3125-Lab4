@@ -51,6 +51,7 @@
 
   // Scrolls to book visit and sets service
 	$('.closeModal').click(function () {
+    //scrolling effect inspired by https://stackoverflow.com/questions/6677035/jquery-scroll-to-element
 		$('html, body').animate(
 			{
 				scrollTop: $('#contact').offset().top,
